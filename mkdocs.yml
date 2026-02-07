@@ -7,3 +7,7 @@ theme:
 
 extra_css:
   - assets/css/docs.css
+
+nav:
+  - Home: index.md
+  - Actions: actions.md

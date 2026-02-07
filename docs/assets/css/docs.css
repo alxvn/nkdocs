@@ -1,0 +1,117 @@
+.md-header {
+  background-color: #1b1b1b;
+}
+
+.md-typeset {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.md-typeset h1 {
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.6rem;
+}
+
+.md-typeset h2 {
+  font-size: 1.15rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.6rem;
+  color: #ff5555;
+  letter-spacing: 0.04em;
+}
+
+.md-typeset h2::before {
+  content: "▸ ";
+  color: #444;
+}
+
+.md-typeset h3 {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.md-typeset p {
+  max-width: 72ch;
+  color: #d0d0d0;
+}
+
+.md-typeset ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.md-typeset ul li {
+  background: #1b1b1b;
+  border: 1px solid #242424;
+  border-radius: 6px;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.md-typeset ul li code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.75rem;
+  color: #ff8888;
+  background: transparent;
+  padding: 0;
+}
+
+.md-typeset code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.75rem;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+
+.md-typeset pre {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 0.8rem;
+}
+
+.md-nav__title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #ff5555;
+}
+
+.md-nav__link {
+  font-size: 0.8rem;
+}
+
+.md-nav__link--active {
+  color: #ff5555;
+}
+
+.md-typeset table {
+  background: #181818;
+  border: 1px solid #222;
+}
+
+.md-typeset th {
+  background: #1f1f1f;
+  font-weight: 500;
+}
+
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 76.2344em) {
+  .md-nav--primary .md-nav__title[for="__drawer"] {
+    background-color: inherit;
+  }
+}

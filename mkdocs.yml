@@ -1,0 +1,9 @@
+site_name: CopperCube Narrative Kit Docs
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+extra_css:
+  - assets/css/docs.css
